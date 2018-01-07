@@ -5,3 +5,8 @@
   left: 0;
   z-index: 0;
 }
+
+#logo {
+  position: relative;
+  z-index: 1;
+}
