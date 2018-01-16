@@ -1,403 +1,645 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-  <head>
+        <title>trademindx - distributed machine learning system for cryptocurrency trading</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <link rel="canonical" href="https://trademindx.com/">
 
-    <title>trademindx - distributed machine learning financial markets system</title>
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="canonical" href="https://trademindx.com/">
+        <!-- Custom fonts for this template -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+              rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+              rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Plugin CSS -->
+        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <!-- Custom styles for this template -->
+        <link href="css/creative.min.css" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112080053-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-112080053-1');
+        </script>
+    </head>
 
-    <link href="css/custom.css" rel="stylesheet">
+    <body id="page-top">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112080053-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-112080053-1');
-    </script>
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">trademindx.com</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#token">ICO Token SALE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#founder">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-
-
-    <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div  class="row">
-          <div class="col-lg-10 mx-auto">
-
-            <img id="logo" class="img-fluid" src="img/logo.png" alt="">
-
-            <h1 class="text-uppercase">
-              <strong>trademindx</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">distributed machine learning financial markets system<br />
-            for cryptocurrency trading</p>
-            <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Sign Up For Early Acess!</a>-->
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">Get the edge in cryptocurrency trading!</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">trademindx is a system that aims to facilitate daily trading decisions through applied natural-language processing and machine learning algorithms.<br /><br />
-              Built as a micro-services based distributed architecture, its primary function is to analyse large volumes of data and provide trading indicators to the client in near real-time.<br /><br />The default approach is implemented using a maximum entropy algorithm with feedback and is currently being developed specifically for cryptocurrency applications.
-            </p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="https://dl.dropboxusercontent.com/s/mi5aj49b3thqd5z/trademindx_whitepaper.pdf" target="_blank">Read the Whitepaper</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Trading signals at your fingertips</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Big Data</h3>
-              <p class="text-muted mb-0">The system combines natural-language processing, sentiment analysis and machine learning algorithms to classify large volumes of data including news, exchange prices and even Tweets.</p>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">trademindx.com</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#opportunity">Opportunity</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#vision">Vision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#solution">Solution</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#token">Token SALE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#roadmap">Roadmap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#founder">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-cogs text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Machine Learning</h3>
-              <p class="text-muted mb-0">By design, the system is in a state of continuous automated machine learning, constantly adjusting and updating its internal models and improving accuracy.</p>
+        </nav>
+
+        <header class="masthead text-center text-white d-flex">
+            <div class="container my-auto">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+
+                        <img id="logo" class="img-fluid" src="img/logo.png" alt="trademindx - distributed machine learning system for cryptocurrency trading">
+
+                        <h1 class="text-uppercase">
+                            <strong>trademindx</strong>
+                        </h1>
+                        <hr>
+                    </div>
+                    <div class="col-lg-8 mx-auto">
+                        <p class="text-faded mb-5">distributed machine learning system<br/>for cryptocurrency trading
+                        </p>
+                        <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Sign Up For Early Acess!</a>-->
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Clearn Signals</h3>
-              <p class="text-muted mb-0">Simple BUY, SELL or HOLD indicators for each cryptocurrency (with a market capitalisation over a $100mm) are provided to you with a clear degree of confidence.</p>
+        </header>
+
+        <section id="opportunity">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Cryptocurrency Market</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-cubes text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Proven Tech</h3>
-              <p class="text-muted mb-0">Built on proven technologies including Apache's <a href="https://opennlp.apache.org/" target="_blank">OpenNLP</a>, <a href="https://github.com/cjhutto/vaderSentiment" target="_blank">VADER</a> (Valence Aware Dictionary and sEntiment Reasoner), <a href="https://lucene.apache.org/" target="_blank">Lucene</a>, <a href="https://www.java.com/en/" target="_blank">Java</a>, <a href="https://www.mongodb.com/" target="_blank">MongoDB</a> and <a href="https://projects.spring.io/spring-boot/" target="_blank">Spring Boot</a>.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 mx-auto text-center">
+                        <img class="img-fluid" src="img/cryptocurrency-market.png" alt="cryptocurrency market at a glance">
+                        <br /><br />
+                        <p class="mb-4"><small>Data estimated on 16/01/2018: (1) coinmarketcap.com (2) Google keyword planner (3) cointrendz.com (*) own estimate
+                        </small></p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://medium.com/@trademindxofficial/trademindx-distributed-machine-learning-financial-markets-system-a5a667d1b30d" target="_blank">
-              <img class="img-fluid" src="img/portfolio/thumbnails/introducing-trademindx.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Blog/News @medium
-                  </div>
-                  <div class="project-name">
-                    introducing trademindx
-                  </div>
+        <section class="bg-primary" id="vision">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading text-white">Get the edge in cryptocurrency trading!</h2>
+                        <hr class="light my-4">
+                        <p class="text-faded mb-4">trademindx is a system that aims to facilitate daily trading
+                            decisions
+                            through applied natural-language processing, sentiment analysis and machine learning
+                            algorithms.<br/><br/>
+                            Built as a micro-services based distributed architecture, its primary function is to analyse
+                            large volumes of data and provide clear indicators to the trader in real-time.<br/><br/>The
+                            default approach is implemented using a maximum entropy algorithm with feedback and is
+                            currently
+                            being developed specifically for cryptocurrency applications.
+                        </p>
+                        <a class="btn btn-light btn-xl js-scroll-trigger"
+                           href="https://dl.dropboxusercontent.com/s/mi5aj49b3thqd5z/trademindx_whitepaper.pdf"
+                           target="_blank">Read the Whitepaper</a>
+                    </div>
                 </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumb3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Blog/Article @medium
-                  </div>
-                  <div class="project-name">
-                    altcoins - finding a needle in a haystack - coming soon
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumb2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Blog/Article @medium
-                  </div>
-                  <div class="project-name">
-                    trademindx: roadmap - coming soon
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumb4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Blog/Tech @medium
-                  </div>
-                  <div class="project-name">
-                    building the tech stack - coming soon
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumb5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Blog/Tech @medium
-                  </div>
-                  <div class="project-name">
-                    trademindx: pre-ico token sale - coming soon
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="#">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumb6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Blog/Tech @medium
-                  </div>
-                  <div class="project-name">
-                    trademindx: alpha - coming soon
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="token" class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">TMX Token - potential ICO in 2018!</h2>
-        <hr class="my-4">
-        <p class="text-faded mb-4">TMX will be a ERC20 smart contract token based on the Ethereum blockchain.<br /> The ICO (initial coin offering) will enable us to build out the team and infrastructure.<br /><br />
-          We are at the initial stages of this project but have already built an early working prototype.<br /><br />
-          More details on TMX token will be published as they become available.<br /><br />
-        Our roadmap and FAQ will also be published soon!<br /><br /></p>
-        <form action="https://learn-to-code-london.us11.list-manage.com/subscribe/post?u=9ee69d3bedd6468db2165ef11&amp;id=be3ba02eba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div class="row">
-            <div class="col-lg-6 mx-auto text-center form-group">
-              <h4  class="section-heading">Enter Your Email Addess To Stay Updated</h4>
-              <input type="email" value="" name="EMAIL" class="form-control input-lg" id="mce-EMAIL" placeholder="email address" required>
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9ee69d3bedd6468db2165ef11_be3ba02eba" tabindex="-1" value=""></div>
-              <br />
-              <a id="submit" class="btn btn-light btn-xl sr-button" href="#">Yes, Keep Me Updated!</a>
             </div>
-          </div>
-        </form>
-      </div>
-    </section>
+        </section>
 
-    <section id="founder">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Alex Petlenko - <small>Founder</small></h2>
-            <hr class="my-4">
-            <img class="img-fluid" src="img/alex-petlenko.png" alt="">
-            <p class="mb-5"><br />Alex is a software developer with over 20 years experience and is based in London, UK.<br /><br />
-              Having gained a masters in Software Engineering from <a href="https://www.imperial.ac.uk/" target="_blank">Imperial College London</a>, Alex went on to code at a number of large investment banks and hedge funds.<br /><br />
-              Alex has a huge interest in artificial intelligence, natural-language processing, financial markets, value-investing and cryptocurrencies. He is also a keen FPS gamer.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 mr-auto text-center">
-            <br />
-            <p>
-              <a href="https://www.linkedin.com/in/alexpetlenko/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <section id="solution">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Trading signals at your fingertips</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+                            <h3 class="mb-3">Big Data</h3>
+                            <p class="text-muted mb-0">The system combines natural-language processing, sentiment
+                                analysis
+                                and machine learning algorithms to classify large volumes of data including news,
+                                exchange
+                                prices and even Tweets.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i class="fa fa-4x fa-cogs text-primary mb-3 sr-icons"></i>
+                            <h3 class="mb-3">Machine Learning</h3>
+                            <p class="text-muted mb-0">By design, the system is in a state of continuous automated
+                                machine
+                                learning, constantly adjusting and updating its internal models and improving
+                                accuracy.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+                            <h3 class="mb-3">Clear Signals</h3>
+                            <p class="text-muted mb-0">Simple BUY, SELL or HOLD indicators for each cryptocurrency (with
+                                a
+                                market capitalisation over a $100mm) are provided to you with a clear degree of
+                                confidence.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box mt-5 mx-auto">
+                            <i class="fa fa-4x fa-cubes text-primary mb-3 sr-icons"></i>
+                            <h3 class="mb-3">Proven Tech</h3>
+                            <p class="text-muted mb-0">Built on proven technologies including Apache's <a
+                                    href="https://opennlp.apache.org/" target="_blank">OpenNLP</a>, <a
+                                    href="https://github.com/cjhutto/vaderSentiment" target="_blank">VADER</a> (Valence
+                                Aware Dictionary and sEntiment Reasoner), <a href="https://lucene.apache.org/"
+                                                                             target="_blank">Lucene</a>, <a
+                                        href="https://www.java.com/en/" target="_blank">Java</a>, <a
+                                        href="https://www.mongodb.com/" target="_blank">MongoDB</a> and <a
+                                        href="https://projects.spring.io/spring-boot/" target="_blank">Spring Boot</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-0" id="blog">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box"
+                           href="https://medium.com/@trademindxofficial/trademindx-distributed-machine-learning-system-for-cryptocurrency-trading-69c44aa4c825"
+                           target="_blank">
+                            <img class="img-fluid" src="img/portfolio/thumbnails/introducing-trademindx.jpg" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Blog/News @medium
+                                    </div>
+                                    <div class="project-name">
+                                        trademindx - distributed machine learning system for cryptocurrency trading
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="#">
+                            <img class="img-fluid" src="img/portfolio/thumbnails/thumb3.jpg" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Blog/Article @medium
+                                    </div>
+                                    <div class="project-name">
+                                        altcoins - finding a needle in a haystack - coming soon
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="#">
+                            <img class="img-fluid" src="img/portfolio/thumbnails/thumb2.jpg" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Blog/Article @medium
+                                    </div>
+                                    <div class="project-name">
+                                        trademindx: roadmap - coming soon
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="#">
+                            <img class="img-fluid" src="img/portfolio/thumbnails/thumb4.jpg" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Blog/Tech @medium
+                                    </div>
+                                    <div class="project-name">
+                                        building the tech stack - coming soon
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="#">
+                            <img class="img-fluid" src="img/portfolio/thumbnails/thumb5.jpg" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Blog/Tech @medium
+                                    </div>
+                                    <div class="project-name">
+                                        trademindx: pre-ico token sale - coming soon
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="#">
+                            <img class="img-fluid" src="img/portfolio/thumbnails/thumb6.jpg" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Blog/Tech @medium
+                                    </div>
+                                    <div class="project-name">
+                                        trademindx: alpha - coming soon
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="token">
+            <div class="container text-center">
+                <h2 class="mb-4">TMX - Token Sale in Q2 / 2018!</h2>
+                <hr class="my-4">
+                <img class="img-fluid" src="img/tmx-token.png" alt="TMX Token"><br/><br/>
+
+                <p class="mb-4">TMX is a ERC20 smart contract token based on the <a href="https://www.ethereum.org/"
+                                                                                    target="_blank">Ethereum</a>
+                    blockchain and is compatible with
+                    Ethereum wallets.<br/> The token sale will enable us to build out the team and
+                    infrastructure.<br/><br/>
+                    We are in the early stages of this project but have already built a working prototype.<br/><br/>
+                    More details on TMX token will be published in Q1 / 2018.<br/><br/></p>
+
+                <h2 class="mb-4">Token Distribution - Huge Bonus Pool!</h2>
+                <hr class="my-4">
+
+                <div class="row">
+                    <div class="offset-lg-4 col-lg-4 text-center">
+                        <img class="img-fluid" src="img/tmx-token-distribution.png"
+                             alt="TMX Token Distribution"><br/><br/>
+                    </div>
+                </div>
+
+                <p class="mb-4"><a class="js-scroll-trigger" href="#contact">Sign-up today</a> and be the first to be
+                    notified!</p>
+            </div>
+        </section>
+
+        <section id="roadmap" class="bg-dark text-white">
+            <div class="container text-center">
+                <h2 class="mb-4">Roadmap</h2>
+                <hr class="my-4">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image">
+                                    <i class="rounded-circle img-fluid fa fa-rocket fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q4 / 2017</h4>
+                                        <h4>Project Launch</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>trademindx project launched / whitepaper published
+                                            / prototype development begins / build out of core services</i></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <i class="rounded-circle img-fluid fa fa-cubes fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q1 / 2018</h4>
+                                        <h4>Prototype Development</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>complete prototype / architecture and tech stack
+                                            design / roadmap published / smart contract development in Solidity / token
+                                            sale outreach</i></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <i class="rounded-circle img-fluid fa fa-cart-plus fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q2 / 2018</h4>
+                                        <h4>Token Sale</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>TMX token sale / smart contract on Ethereum
+                                            blockchain (ERC20) / compatible with Ethereum wallets / exchange listing</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <i class="rounded-circle img-fluid fa fa-cogs fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q3 / 2018</h4>
+                                        <h4>Artificial Intelligence</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>AI model training and calibration for all
+                                            cryptocurrency coins/tokens with a market cap of more than $100mm</i></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <i class="rounded-circle img-fluid fa fa-flask fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q4 / 2018</h4>
+                                        <h4>Beta Release</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>trademindx closed beta for TMX token holders only
+                                            / feedback from community / bug fixes and improvements</i></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <i class="rounded-circle img-fluid fa fa-thumbs-up fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q2 / 2019</h4>
+                                        <h4>GO LIVE!</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>trademindx platform goes live / subscription based
+                                            pricing model using TMX tokens!</i></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <i class="rounded-circle img-fluid fa fa-handshake-o fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q4 / 2019</h4>
+                                        <h4>Enterprise Edition: TaaS</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>trademindx as a service / onboarding of enterprise
+                                            clients / custom strategies and algorithms / strategic partnerships</i></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <i class="rounded-circle img-fluid fa fa-bank fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q2 / 2020</h4>
+                                        <h4>Hedge Fund Setup</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>automated algo hedge fund driven by trademindx
+                                            algorithms with a range of products to suit cryptocurrency investors with
+                                            various risk appetites / TMX token utilisation</i></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image-leaf">
+                                    <h4><strong>Be Part
+                                        <br>of Our
+                                        <br>Journey!</strong></h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="founder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading">Alex Petlenko -
+                            <small>Founder</small>
+                        </h2>
+                        <hr class="my-4">
+                        <img class="img-fluid" src="img/alex-petlenko.png" alt="Alex Petlenko - Founder">
+                        <p class="mb-5"><br/>Alex is a software developer with over 20 years experience and is based in
+                            London, UK.<br/><br/>
+                            Having gained a masters in Software Engineering from <a href="https://www.imperial.ac.uk/"
+                                                                                    target="_blank">Imperial College
+                                London</a>, Alex went on to code at a number of major financial institutions. He was a
+                            director at the 2nd largest Russian investment bank and a developer at the largest hedge
+                            fund in
+                            Europe.<br/><br/>
+                            Alex has a huge interest in artificial intelligence, natural-language processing, financial
+                            markets, value-investing and cryptocurrencies. He is also a keen FPS gamer.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mr-auto text-center">
+                        <br/>
+                        <p>
+                            <a href="https://www.linkedin.com/in/alexpetlenko/" target="_blank"><i
+                                    class="fa fa-linkedin fa-2x"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-    <section id="contact" class="bg-dark text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Connect and Get In Touch!</h2>
-            <hr class="my-4">
-            <p class="mb-5">Want to find out more? Awesome!<br />Send us an email and we will get back to you asap!</p>
-          </div>
-        </div>
-        <div class="row">
-          <!--<div class="col-lg-4 ml-auto text-center">
-            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
-          </div> -->
-          <div class="col-lg-12 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <!-- avoid email scrapping -->
-              <script language="JavaScript">
-                var u = "hello";
-                var h = "trademindx";
-                var e = ".com";
-                var m = u + "@" + h + e ;
-                document.write("<a href='" + "ma" + "il" + "to:" + u + "@" + h + e + "'>" + m + "</a>");
-              </script>
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 mr-auto text-center">
-            <br />
-            <p>
-              <a href="https://twitter.com/trademindx" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-            </p>
-            <p>
-              <a href="https://medium.com/@trademindxofficial" target="_blank"><i class="fa fa-medium fa-2x"></i></a>
-            </p>
-            <p>
-              <a href="https://github.com/trademindx" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-            </p>
-          </div>
-          <div class="col-lg-12 mr-auto text-center">
-            <br />
-            <br /><br />
-            <hr class="my-4">
-            <small><i class="fa fa-copyright"></i> Copyright trademindx.com 2018.<br />Owned and operated by Wall West Ltd.<br />Registered in England, UK company number 9240576.</small>
-          </div>
-        </div>
-      </div>
-    </section>
+        <section id="contact" class="bg-dark text-white">
+            <div class="container">
 
-    <canvas class="particles"></canvas>
+                <form action="https://learn-to-code-london.us11.list-manage.com/subscribe/post?u=9ee69d3bedd6468db2165ef11&amp;id=be3ba02eba"
+                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                      target="_blank" novalidate>
+                    <div class="row">
+                        <div class="col-lg-6 mx-auto text-center form-group">
+                            <h2 class="section-heading">Stay Updated</h2>
+                            <hr class="my-4">
+                            <h4 class="section-heading">Enter Your Email Addess To Stay Updated</h4>
+                            <input type="email" value="" name="EMAIL" class="form-control input-lg" id="mce-EMAIL"
+                                   placeholder="email address" required>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_9ee69d3bedd6468db2165ef11_be3ba02eba" tabindex="-1" value="">
+                            </div>
+                            <br/>
+                            <a id="submit" class="btn btn-light btn-xl sr-button" href="#">Yes, Keep Me Updated!</a>
+                        </div>
+                    </div>
+                </form>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <br/><br/><br/>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading">Connect with Us!</h2>
+                        <hr class="my-4">
+                        <p class="mb-5">Want to find out more? Awesome!<br/>Send us an email and we will get back to you
+                            asap!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--<div class="col-lg-4 ml-auto text-center">
+                      <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+                      <p>123-456-6789</p>
+                    </div> -->
+                    <div class="col-lg-12 mr-auto text-center">
+                        <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+                        <p>
+                            <!-- avoid email scrapping -->
+                            <script language="JavaScript">
+                            var u = "hello";
+                            var h = "trademindx";
+                            var e = ".com";
+                            var m = u + "@" + h + e ;
+                            document.write("<a href='" + "ma" + "il" + "to:" + u + "@" + h + e + "'>" + m + "</a>");
+                            </script>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mr-auto text-center">
+                        <br/>
+                        <p>
+                            <a href="https://twitter.com/trademindx" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                        </p>
+                        <p>
+                            <a href="https://medium.com/@trademindxofficial" target="_blank"><i
+                                    class="fa fa-medium fa-2x"></i></a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/trademindx" target="_blank"><i
+                                    class="fa fa-github fa-2x"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-lg-12 mr-auto text-center">
+                        <br/>
+                        <br/><br/>
+                        <hr class="my-4">
+                        <small><i class="fa fa-copyright"></i> Copyright trademindx.com 2018.<br/>Owned and operated by
+                            Wall
+                            West Ltd.<br/>Registered in England, UK company number 9240576.
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <canvas class="particles"></canvas>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- particles -->
-    <script src="js/particles.min.js"></script>
-    <script>
-      window.onload = function() {
-        Particles.init({
-          selector: '.particles',
-          color: '#FFFFFF',
-          maxParticles: 100,
-          sizeVariations: 7,
-          minDistance: 133,
-          connectParticles: true,
-          responsive: [
-            {
-              breakpoint: 100,
-              options: {
-                maxParticles: 80
-              }
-            }, {
-              breakpoint: 200,
-              options: {
-                maxParticles: 50
-              }
-            }
-          ]
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/creative.min.js"></script>
+
+        <!-- particles -->
+        <script src="js/particles.min.js"></script>
+        <script>
+        window.onload = function() {
+            Particles.init({
+                selector: '.particles',
+                color: '#FFFFFF',
+                maxParticles: 100,
+                sizeVariations: 7,
+                minDistance: 133,
+                connectParticles: true,
+                responsive: [{
+                    breakpoint: 100,
+                    options: {
+                        maxParticles: 80
+                    }
+                }, {
+                    breakpoint: 200,
+                    options: {
+                        maxParticles: 50
+                    }
+                }
+            ]
+            });
+        };
+        </script>
+
+        <!-- allow opt-in form to be submitted by cliking image -->
+        <script>
+        $( "#submit" ).click(function() {
+            $( "#mc-embedded-subscribe-form" ).submit();
         });
-      };
-    </script>
+        </script>
 
-    <!-- allow opt-in form to be submitted by cliking image -->
-    <script>
-      $( "#submit" ).click(function() {
-        $( "#mc-embedded-subscribe-form" ).submit();
-      });
-    </script>
-
-  </body>
-
+    </body>
 </html>
