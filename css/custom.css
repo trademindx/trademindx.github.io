@@ -11,6 +11,14 @@
   z-index: 1;
 }
 
+/* align font awesome icon to midle of roadmap circle */
+.iconvmiddle {
+   color: #212529;
+   position: relative;
+   top: 45%;
+   transform: translateY(-45%);
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -51,7 +59,6 @@
         border-left-width: 0; }
     .timeline > li .timeline-image {
       position: absolute;
-      padding-top: 40px;
       z-index: 100;
       left: 0;
       width: 80px;

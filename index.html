@@ -325,10 +325,10 @@
                     blockchain and is compatible with
                     Ethereum wallets.<br/> The token sale will enable us to build out the team and
                     infrastructure.<br/><br/>
-                    We are in the early stages of this project but have already built a working prototype.<br/><br/>
+                    We are in the initial stages of this project but have already built an early working prototype which will be completed during Q1 2018.<br/><br/>
                     More details on TMX token will be published in Q1 / 2018.<br/><br/></p>
 
-                <h2 class="mb-4">Token Distribution - Huge Bonus Pool!</h2>
+                <h2 class="mb-4">Token Distribution</h2>
                 <hr class="my-4">
 
                 <div class="row">
@@ -354,7 +354,7 @@
                         <ul class="timeline">
                             <li>
                                 <div class="timeline-image">
-                                    <i class="rounded-circle img-fluid fa fa-rocket fa-4x"></i>
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-rocket fa-4x"></i>
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -369,7 +369,7 @@
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <i class="rounded-circle img-fluid fa fa-cubes fa-4x"></i>
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-cubes fa-4x"></i>
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -385,7 +385,7 @@
                             </li>
                             <li>
                                 <div class="timeline-image">
-                                    <i class="rounded-circle img-fluid fa fa-cart-plus fa-4x"></i>
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-cart-plus fa-4x"></i>
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -401,7 +401,7 @@
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <i class="rounded-circle img-fluid fa fa-cogs fa-4x"></i>
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-cogs fa-4x"></i>
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -416,22 +416,36 @@
                             </li>
                             <li>
                                 <div class="timeline-image">
-                                    <i class="rounded-circle img-fluid fa fa-flask fa-4x"></i>
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-fire fa-4x"></i>
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h4>Q4 / 2018</h4>
-                                        <h4>Beta Release</h4>
+                                        <h4>Token Burn</h4>
                                     </div>
                                     <div class="timeline-body">
-                                        <p class="text-faded mb-4"><i>trademindx closed beta for TMX token holders only
-                                            / feedback from community / bug fixes and improvements</i></p>
+                                        <p class="text-faded mb-4"><i>Left over TMX tokens from sales and bonus pool will be burned off thus reducing the circulating supply</i></p>
                                     </div>
                                 </div>
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <i class="rounded-circle img-fluid fa fa-thumbs-up fa-4x"></i>
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-flask fa-4x"></i>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Q1 / 2019</h4>
+                                        <h4>Beta Release</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-faded mb-4"><i>trademindx closed beta for TMX token holders
+                                            / feedback from community / bug fixes and improvements</i></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-thumbs-up fa-4x"></i>
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -444,9 +458,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <i class="rounded-circle img-fluid fa fa-handshake-o fa-4x"></i>
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-handshake-o fa-4x"></i>
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -459,9 +473,9 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="timeline-inverted">
+                            <li>
                                 <div class="timeline-image">
-                                    <i class="rounded-circle img-fluid fa fa-bank fa-4x"></i>
+                                    <i class="iconvmiddle rounded-circle img-fluid fa fa-bank fa-4x"></i>
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -622,7 +636,7 @@
             Particles.init({
                 selector: '.particles',
                 color: '#FFFFFF',
-                maxParticles: 100,
+                maxParticles: (screen.width > 2000)  ? 100 : 30,
                 sizeVariations: 7,
                 minDistance: 133,
                 connectParticles: true,
