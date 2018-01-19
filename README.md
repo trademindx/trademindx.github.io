@@ -1,7 +1,5 @@
 # trademindx.github.io
 
-trademindx.com
-
-public homepage
+Public Homepage - https://trademindx.com
 
 Based on a modified Creative bootstrap theme by Blackrock Digital LLC.
