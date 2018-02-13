@@ -2,6 +2,8 @@ User-agent: Mediapartners-Google
 Disallow:
 
 User-agent: *
+Disallow: /thanks.html
 Disallow: /privacy.html
 Disallow: /terms.html
+Disallow: /token-sale-terms.html
 Allow: /
