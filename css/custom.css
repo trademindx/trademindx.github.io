@@ -19,6 +19,7 @@
    transform: translateY(-45%);
 }
 
+/* register header */
 header.mastheadtoken {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -50,9 +51,26 @@ header.mastheadtoken {
     header.masthead h1 {
       font-size: 4rem; } }
 
-.terms {
-  height:200px;
-  overflow-y: scroll;
+/* advisors */
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
 }
 
 /*.prototype {

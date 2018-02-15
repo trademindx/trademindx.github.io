@@ -72,7 +72,8 @@
         <hr class="my-4">
         <h3 class="section-heading">Simple, quick and easy!</h3>
 
-        <p class="mb-4"><i>Fill in the form below to register.<br />We will send you instructions on how to buy your TMX tokens.</i></p>
+        <p class="mb-4"><i>Fill in the short form below to register with us.<br />We will notify you as soon as the pre-sale starts!<br />
+            if you have never purchase Ethereum based tokens, please refer to our <a href="https://medium.com/@trademindxofficial/how-to-buy-tmx-tokens-d6a76e1793bb" target="_blank">handy guide</a> first.</i></p>
         <br />
 
         <form action="https://learn-to-code-london.us11.list-manage.com/subscribe/post?u=9ee69d3bedd6468db2165ef11&amp;id=be3ba02eba"
@@ -84,7 +85,7 @@
                     <input type="email" value="" name="EMAIL" class="form-control input-lg" id="mce-EMAIL"
                            placeholder="email address" required>
                     <br />
-                    <h4 class="section-heading">First Name</h4>
+                    <!--<h4 class="section-heading">First Name</h4>
                     <input type="text" value="" name="FNAME" class="form-control input-lg" id="mce-FNAME"
                            placeholder="first name" required>
                     <br />
@@ -93,17 +94,26 @@
                            placeholder="last name" required>
                     <br /><br />
                     <h4 class="section-heading"><strong>Public</strong> Ethereum Addess</h4>
-                    <p class="mb-4"><small>Only use token compatible wallets like MyEtherWallet.<br />
+                    <p class="mb-4"><small>Only use (ERC20) token compatible wallets like MyEtherWallet.<br />
                         Do not use exchange based wallets.<br />For further info please consult this <a href="https://tokenmarket.net/what-is/how-to-participate-ethereum-token-crowdsale/" target="_blank">guide</a>.</small></p>
                     <input type="text" value="" name="ETH" class="form-control input-lg" id="mce-ETH"
                            placeholder="public ethereum address" required>
-
+                    <br />-->
+                    <h4 class="section-heading">How did you hear about Trademindx?</h4>
+                    <input type="text" value="" name="HEAR" class="form-control input-lg" id="mce-HEAR"
+                           placeholder="">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="UUID" tabindex="-1" value="" id="mce-UUID">
+                    </div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="REF" tabindex="-1" value="" id="mce-REF">
+                    </div>
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
                         <input type="text" name="b_9ee69d3bedd6468db2165ef11_be3ba02eba" tabindex="-1" value="">
                     </div>
                     <br/>
 
-                    <p class="mb-4"><small>By submitting this form, you agree to the TMX Token Sale <br /><a href="token-sale-terms.html" target="_blank">Terms and Conditions</a></small></p>
+                    <!--<p class="mb-4"><small>By submitting this form and registering, you agree to the TMX Token Sale <br /><a href="token-sale-terms.html" target="_blank">Terms and Conditions</a></small></p>-->
 
                     <a id="submit" class="btn btn-primary btn-xl sr-button" href="#">Yes, I want Register!</a>
                 </div>
@@ -123,10 +133,6 @@
             </div>
         </div>
         <div class="row">
-            <!--<div class="col-lg-4 ml-auto text-center">
-              <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-              <p>123-456-6789</p>
-            </div> -->
             <div class="col-lg-12 mr-auto text-center">
                 <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
                 <p>
@@ -181,7 +187,35 @@
 
 <!-- allow opt-in form to be submitted by cliking image -->
 <script>
+    function guid() {
+        function s4() {
+            return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
+        }
+        return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+    }
+    function getQueryString(param) {
+        address = window.location.search.substring(1);
+        params = address.split("&");
+        for (i=0; i<params.length; i++) {
+            query = params[i].split("=");
+            if (query[0] == param) {
+                return query[1];
+            }
+        }
+    }
+
     $( "#submit" ).click(function() {
+        var ref = getQueryString("ref");
+
+        if(ref) {
+            document.getElementById('mce-REF').value = ref;
+        }
+
+        var uuid = guid();
+        if(uuid) {
+            document.getElementById('mce-UUID').value = uuid;
+        }
+
         $( "#mc-embedded-subscribe-form" ).submit();
     });
 </script>
