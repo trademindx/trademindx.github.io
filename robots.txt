@@ -7,3 +7,5 @@ Disallow: /privacy.html
 Disallow: /terms.html
 Disallow: /token-sale-terms.html
 Allow: /
+
+Sitemap: https://trademindx.com/sitemap.xml
