@@ -6,4 +6,5 @@ Based on a modified Creative bootstrap theme by Blackrock Digital LLC.
 
 # image optimization
 
+convert logo.png -strip logo.png
 convert header.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB header.jpg
