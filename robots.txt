@@ -6,6 +6,10 @@ Disallow: /thanks.html
 Disallow: /privacy.html
 Disallow: /terms.html
 Disallow: /token-sale-terms.html
+Disallow: /thanks
+Disallow: /privacy
+Disallow: /terms
+Disallow: /token-sale-terms
 Allow: /
 
 Sitemap: https://trademindx.com/sitemap.xml
