@@ -115,7 +115,14 @@
                     <div class="col-lg-10 mx-auto">
 
                         <img id="logo" class="img-fluid" src="img/logo.png" alt="Trademindx - Machine Learning Platform for Cryptocurrency Trading">
-                        <h2>OPINION moves the market,<br />Can Artificial Intelligence sense opinion?</h2>
+                        <br /><br />
+                        <div id="typed-strings">
+                            <p>"Opinion moves the market"</p>
+                            <p>"Can Artificial Intelligence sense opinion?"</p>
+                            <p>"Can Artificial Intelligence predict the market before it moves?" - Trademindx</p>
+                        </div>
+                        <span id="typed"></span>
+
                         <hr>
                         <h1>Machine Learning Platform for Cryptocurrency Trading</h1>
                     </div>
@@ -321,7 +328,9 @@
                     As listed on <a href="https://icodaily.net" target="_blank">ICO Daily</a>,
                                  <a href="https://www.icoalert.com" target="_blank">ICO Alert</a>,
                                  <a href="https://longcatchain.com" target="_blank">Longcatchain</a>,
-                                 <a href="https://cryptorated.com/" target="_blank">Cryptorated</a>.
+                                 <a href="https://cryptorated.com/" target="_blank">Cryptorated</a>,
+                                 <a href="https://www.coingecko.com" target="_blank">CoinGecko</a>,
+                                 <a href="https://icoholder.com/" target="_blank">icoholder</a>.
 
                     <br />
 
@@ -1118,6 +1127,16 @@
                     registerLinks[i].href = "register?ref=" + ref;
                 }
             }
+        </script>
+
+        <script src="js/typed.min.js"></script>
+        <script>
+             var options = {
+                stringsElement: '#typed-strings',
+                typeSpeed: 40
+             }
+
+             var typed = new Typed("#typed", options);
         </script>
 
         <!-- particles -->
