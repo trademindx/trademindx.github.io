@@ -202,6 +202,7 @@
         }
         return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
     }
+
     function getQueryString(param) {
         address = window.location.search.substring(1);
         params = address.split("&");
@@ -218,6 +219,8 @@
 
         if(ref) {
             document.getElementById('mce-REF').value = ref;
+        } else {
+            document.getElementById('mce-REF').value = "";
         }
 
         var uuid = guid();
