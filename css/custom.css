@@ -11,6 +11,11 @@
   z-index: 1;
 }
 
+#ico-rating {
+  position: relative;
+  z-index: 1;
+}
+
 /* align font awesome icon to midle of roadmap circle */
 .iconvmiddle {
    color: #212529;
