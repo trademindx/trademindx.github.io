@@ -153,7 +153,7 @@ header.masthead {
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
-      min-height: 650px;
+      min-height: 900px;
       padding-top: 0;
       padding-bottom: 0; }
       header.masthead h1 {
