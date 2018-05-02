@@ -4,6 +4,10 @@ Public Homepage - https://trademindx.com
 
 Based on a modified Creative bootstrap theme by Blackrock Digital LLC.
 
+# running locally:
+jekyll build
+jekyll serve
+
 # image optimization
 
 convert logo.png -strip logo.png
