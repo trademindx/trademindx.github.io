@@ -18,4 +18,4 @@ Disallow: /privacy
 Disallow: /terms
 Allow: /
 
-Sitemap: https://trademindx.com/sitemap.xml
+Sitemap: https://trademindx.github.io/sitemap.xml
